@@ -5,24 +5,22 @@ This utility takes a search term and a count and returns the Twitter handles and
 
 In order to use this, you must first obtain credentials from [Twitter](https://dev.twitter.com/docs/auth/tokens-devtwittercom). 
 
-  TweetStream.configure do |config|
-    config.consumer_key       = CONSUMER_KEY
-    config.consumer_secret    = CONSUMER_SECRET
-    config.oauth_token        = OAUTH_TOKEN
-    config.oauth_token_secret = OAUTH_TOKEN_SECRET
-    config.auth_method        = :oauth
-  end
+    TweetStream.configure do |config|
+        config.consumer_key       = CONSUMER_KEY
+        config.consumer_secret    = CONSUMER_SECRET
+        config.oauth_token        = OAUTH_TOKEN
+        config.oauth_token_secret = OAUTH_TOKEN_SECRET
+        config.auth_method        = :oauth
+    end
 
 Replace each constant with your keys, written as strings.
 
 From the command line:
 ====================
 
-- clone the repository
-- cd to the directory
-- from the command line, type: 
-
-  rake stream_for_term['term',7]
+    git clone https://github.com/akuttruff/tweetstream_util.git
+    cd (path/to/directory)/tweetstream_util
+    rake stream_for_term['term',7]
 
 where term is a 'string' and count is the number. Be sure not to put a space between the comma and the integer. 
 Rake is fussy about passing parameters from the command line!
