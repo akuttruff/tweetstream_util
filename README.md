@@ -1,11 +1,10 @@
 TweetStream_Util 
 ====================
 
-This utility serves as a makeshift content listener. It takes a search term (as a 'string') and count (as an integer) and returns the user handles and tweets from Twitter's live feed. Find out who's currently discussing whatever topic you'd like to explore.
+TweetStream_Util uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream gem](https://github.com/tweetstream/tweetstream). It takes a search term (as a 'string') and count (as an integer) and returns the user handles and tweets from Twitter's live feed. Find out who's currently discussing whatever topic you'd like to explore.
 
 The return data is saved as two separate files: /data/handles and /data/tweets 
 
-TweetStream_Util uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream gem](https://github.com/tweetstream/tweetstream).
 
 You must first [obtain credentials](https://dev.twitter.com/docs/auth/tokens-devtwittercom) from Twitter. 
 
