@@ -1,9 +1,11 @@
-TweetStream_Util
+TweetStream_Util 
 ====================
 
-This utility takes a search term (as a 'string') and count (as an integer) and returns the Twitter handles and their tweets as two separate files: /data/handles and /data/tweets. 
+This utility serves as a makeshift content listener. It takes a search term (as a 'string') and count (as an integer) and returns the user handles and tweets from Twitter's live feed. Find out who's currently discussing whatever topic you'd like to explore.
 
-It uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream gem](https://github.com/tweetstream/tweetstream).
+The return data is saved as two separate files: /data/handles and /data/tweets 
+
+TweetStream_Util uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream gem](https://github.com/tweetstream/tweetstream).
 
 You must first obtain credentials from [Twitter](https://dev.twitter.com/docs/auth/tokens-devtwittercom). 
 
@@ -15,7 +17,7 @@ You must first obtain credentials from [Twitter](https://dev.twitter.com/docs/au
         config.auth_method        = :oauth
     end
 
-Replace each constant with your keys, written as strings.
+Replace each constant with your own application keys, written as strings.
 
 From the command line:
 ====================
