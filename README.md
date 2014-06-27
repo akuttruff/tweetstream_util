@@ -7,7 +7,7 @@ The return data is saved as two separate files: /data/handles and /data/tweets
 
 TweetStream_Util uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream gem](https://github.com/tweetstream/tweetstream).
 
-You must first obtain credentials from [Twitter](https://dev.twitter.com/docs/auth/tokens-devtwittercom). 
+You must first [obtain credentials](https://dev.twitter.com/docs/auth/tokens-devtwittercom) from Twitter. 
 
     TweetStream.configure do |config|
         config.consumer_key       = CONSUMER_KEY
