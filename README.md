@@ -10,7 +10,7 @@ From the command line:
 - clone the directory
 - cd to the directory
 - from the command line, type: 
-- 
+
   rake stream_for_term['term',7]
 
 where term is a 'string' and count is the number. Be sure not to put a space between the comma and the integer. 
