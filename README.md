@@ -3,7 +3,7 @@ TweetStream_Util
 
 This utility takes a search term (as a 'string') and count (as an integer) and returns the Twitter handles and their tweets as two separate files: /data/handles and /data/tweets. 
 
-It uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream](https://github.com/tweetstream/tweetstream) gem.
+It uses the streaming [Twitter API](https://dev.twitter.com/docs/api/streaming) and the [Tweetstream gem](https://github.com/tweetstream/tweetstream).
 
 You must first obtain credentials from [Twitter](https://dev.twitter.com/docs/auth/tokens-devtwittercom). 
 
