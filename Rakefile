@@ -1,4 +1,4 @@
-require './tweetstream_util.rb'
+require './app.rb'
 
 desc "Returns list of twitter handles and tweets from specified term"
 task :streams_for_term, [:term, :count] do |t, args|
