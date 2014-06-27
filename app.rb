@@ -1,6 +1,6 @@
 require './secret.rb'
 
-class Search
+class TweetStreamer
 
   SPLIT = "+_+_+_+_+_+_+"
 
